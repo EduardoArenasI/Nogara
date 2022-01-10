@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,15 +18,16 @@
     <meta name="theme-color" content="#ffffff">
     <title>Contac me</title>
 </head>
+
 <body>
     <nav>
-        <div  style="background-color: rgb(89, 211, 233);" >
-        <ul>
-            <li><a href="index.html" target="_blank"><button>about me</button></a></li>
-            <li><a href="skills.html" target="_blank"><button>skills</button></a></li>
-             <li><a href="contacme.html" target="_blank" ><button>contact me</button></a></li>
-        </ul>
-    </div>
+        <div style="background-color: rgb(89, 211, 233);">
+            <ul>
+                <li><a href="index.html"><button>about me</button></a></li>
+                <li><a href="skills.html"><button>skills</button></a></li>
+                <li><a href="contacme.html"><button>contact me</button></a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
@@ -35,36 +37,49 @@
             <p>
                 <img src="img/github.png" alt="logo github" width="30xp">
                 <a href="https://github.com/EduardoArenasI" target="_blank"> Github</a>
-          </p>
+            </p>
+            <p>
+                <img src="img/facebook.png" alt="logo facebook" width="30xp">
+                <a href="https://www.facebook.com/eduardo.arenas.5477" target="_blank">Facebook</a>
+            </p>
 
-          <p>
-              <img src="img/gmail.png" alt="logo gmail" width="30xp">
-            <a href="mailto:eduardoarenas014@gmail.com" target="_blank">Gmail</a>
-         </p>
+            <p>
+                <img src="img/instagram.png" alt="logo instagram" width="30xp">
+                <a href="https://www.instagram.com/eduardo_arenas09/" target="_blank"> Instagram</a>
+            </p>
 
-         <p>
-             <img src="img/facebook.png" alt="logo facebook" width="30xp">
-            <a href="https://www.facebook.com/eduardo.arenas.5477" target="_blank">Facebook</a>
-        </p>
+            <p>
+                <img src="img/logotipo-de-twitter.png" alt="logo twitter" width="30xp">
+                <a href="https://twitter.com/EduDev17" target="_blank">Twitter</a>
+            </p>
 
-        <p>
-            <img src="img/instagram.png" alt="logo instagram" width="30xp">
-            <a href="https://www.instagram.com/eduardo_arenas09/" target="_blank"> Instagram</a>
-        </p>
+            <div id="formularioContacto">
 
-        <p>
-            <img src="img/logotipo-de-twitter.png" alt="logo twitter" width="30xp">
-            <a href="https://twitter.com/EduDev17" target="_blank">Twitter</a>
-        </p>
+                <h2>Enviar correo</h2>
 
-        </div>
+                <form action="">
 
+                    <fieldset>
+                        <legend>Mensaje</legend>
+                        <p><label>Nombre(s) <input type="text" name="name" id="name" placeholder="Nombre(s)" required>
+                            </label></p>
+                        <p><label>Apellidos <input type="text" name="lastName" id="lastName" placeholder="Apellidos"
+                                    required> </label></p>
+                        <p><label>Correo electronico <input type="email" name="email" id="email"
+                                    placeholder="example1@gmail.com" required></label></p>
+                        <label> Mensaje:<br>
+                            <textarea name="message" required></textarea>
+                        </label>
+                        <br>
+                        <input type="submit" value="Enviar correo">
+
+                </form>
+            </div>
     </main>
-
     <footer>
         <br> <br>
         <p> copyright 2022 todos los derechos reservados</p>
     </footer>
-    
 </body>
+
 </html>
